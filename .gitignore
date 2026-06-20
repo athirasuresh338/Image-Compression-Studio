@@ -1,10 +1,12 @@
+# Virtual Environment
 venv/
+
+# Python Cache
 __pycache__/
 *.pyc
 
-results/
-data/
+# VS Code Settings
+.vscode/
 
+# Streamlit Settings
 .streamlit/
-
-.DS_Store
