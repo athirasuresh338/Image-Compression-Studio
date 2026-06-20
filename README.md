@@ -4,7 +4,11 @@ An interactive Streamlit application for exploring and comparing image compressi
 
 The application allows users to upload an image, adjust compression parameters, visualize compression results, and evaluate image quality using quantitative metrics.
 
----
+## Live Demo
+
+🔗 https://image-compression-studio.streamlit.app/
+
+
 
 ## Features
 
@@ -12,10 +16,11 @@ The application allows users to upload an image, adjust compression parameters, 
 * Adjustable compression parameters
 * Side-by-side comparison of original and compressed images
 * Theoretical compression ratio analysis
-* PSNR and SSIM quality evaluation
+* PSNR (Peak Signal-to-Noise Ratio) evaluation
+* SSIM (Structural Similarity Index) evaluation
 * Interactive Streamlit interface
 
----
+
 
 ## Compression Techniques
 
@@ -31,7 +36,7 @@ Compresses images through dimensionality reduction while preserving the most imp
 
 Approximates images using lower-rank matrix representations to reduce information requirements.
 
----
+
 
 ## Evaluation Metrics
 
@@ -61,7 +66,7 @@ Measures structural similarity between the original and compressed image.
 | 0.70 – 0.85 | Noticeably Different    |
 | < 0.70      | Significantly Different |
 
----
+
 
 ## Technologies Used
 
@@ -72,7 +77,7 @@ Measures structural similarity between the original and compressed image.
 * Scikit-Learn
 * Scikit-Image
 
----
+
 
 ## Project Structure
 
@@ -95,7 +100,7 @@ Image_Compression_Studio/
 └── .gitignore
 ```
 
----
+
 
 ## Installation
 
@@ -123,7 +128,7 @@ Run the application:
 streamlit run app.py
 ```
 
----
+
 
 ## Learning Outcomes
 
@@ -136,7 +141,7 @@ This project demonstrates practical applications of:
 * Streamlit Application Development
 * Image Quality Evaluation
 
----
+
 
 ## Author
 
